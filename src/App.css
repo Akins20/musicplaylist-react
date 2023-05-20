@@ -65,4 +65,10 @@ li {
     *{
         box-sizing: border-box;
     }
+
+    .head {
+        float: left;
+        position: absolute;
+        left: -40px;
+    }
 }

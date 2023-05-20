@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import Signup from "./signup";
 
 const Header = ()=>{
     return(
@@ -10,7 +11,7 @@ const Header = ()=>{
                         <button className="fest">Contact Us</button>
                     </li>
                     <li className="nav-item">
-                        <button className="btn btn-warning">Sign Up</button>
+                        <button className="btn btn-warning" onClick={Signup}>Sign Up</button>
                     </li>
                 </ul>
             </div>
