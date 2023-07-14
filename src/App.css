@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(87, 88, 88);
+    background-color: rgb(178, 180, 180);
 }
 
 h3 {
@@ -9,11 +9,12 @@ h3 {
 }
 
 body {
-    margin: 30px;
+    margin: 20px;
 }
 
 .head {
-    margin: 50px;
+    margin: 10%;
+    margin-right: 20%;
     line-height: 80px;
     float: left;
 }
@@ -46,13 +47,31 @@ body {
 }
 
 li {
-    background-color: rgb(46, 41, 41);
+    background-color: inherit;
 }
 
 .fest {
     background-color: white;
-    height: 38px;
+    height: 6vh;
     border: white;
+    margin-left: 90%;
+    text-align: center;
+}
+
+.fest button {
+    width: 5vw;
+    height: 8vh;
+    font-size: 0.74rem;
+    padding: 0px;
+}
+
+.fest button:first-child{
+    width: 8vw;
+    height: 6vh;
+}
+
+.fest button:hover{
+    color: black;
 }
 
 .hed {
@@ -61,7 +80,7 @@ li {
     margin-left: 10px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 620px) {
     *{
         box-sizing: border-box;
     }
